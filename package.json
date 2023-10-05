@@ -1,0 +1,30 @@
+{
+  "name": "uploader",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {},
+  "dependencies": {
+    "huncwot": "^0.59.1"
+  },
+  "snowpack": {
+    "webDependencies": [
+      "tslib"
+    ]
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "@wessberg/rollup-plugin-ts": "^1.2.24",
+    "chokidar": "^3.3.1",
+    "cross-env": "^7.0.2",
+    "node-pg-migrate": "^4.6.1",
+    "npm-check-updates": "^4.1.2",
+    "snowpack": "^1.7.0",
+    "typescript": "^3.8.3",
+    "prettier": "^2.0.4",
+    "rollup": "^2.6.1"
+  }
+}
